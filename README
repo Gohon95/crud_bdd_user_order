@@ -1,0 +1,24 @@
+# Node JS - Behaviour Driven Development 
+
+This project is made for pedagogic purposes.
+
+# TODO
+
+1. Add the Order class into your model
+Don't forget to import it into index.js !
+
+2. Create the orderRepo into the repositories
+Don't forget to import it into index.js !
+
+3. Add orders mocks to fit your tests
+
+4. Create the /order CRUD
+TIPS :
+- Get inspired with the /recipes one
+- Use luxon to manipulate the dates : https://moment.github.io/luxon/#/?id=luxon
+
+IMPORTANT : Règles métier à prendre en compte
+- L'identifiant, de type UUID, sera généré aléatoirement côté backend
+- Date de commande (format anglais uniquement) : YYYY-MM-DD
+- L'utilisateur doit déjà exister en BDD
+- La recette doit déjà exister en BDD
